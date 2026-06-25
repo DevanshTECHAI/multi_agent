@@ -33,9 +33,54 @@ This project uses **OpenRouter** to query various models in parallel.
 
 ---
 
+## 📋 Prerequisites & Installation
+
+Before getting started, you need to have **Python 3.10 or higher** and **Git** installed on your machine. Since this project is built entirely on Python's standard library, **you do not need to install any external python packages (no `pip install` required!)**.
+
+### 1. Install Python
+
+#### **Windows**
+1. Download the latest Python installer from the official [Python website](https://www.python.org/downloads/windows/).
+2. Run the installer.
+3. **IMPORTANT**: Make sure to check the box that says **"Add python.exe to PATH"** at the bottom of the installer window before clicking Install. This ensures you can run python from any terminal.
+
+#### **macOS**
+Install Python using [Homebrew](https://brew.sh/):
+```bash
+brew install python
+```
+
+#### **Linux (Ubuntu/Debian)**
+Run the following commands:
+```bash
+sudo apt update
+sudo apt install python3 python3-pip git
+```
+
+### 2. Verify Your Python Version
+Open your terminal (PowerShell on Windows, Terminal on macOS/Linux) and run:
+```bash
+python --version
+```
+or (if `python` is not recognized, try `python3`):
+```bash
+python3 --version
+```
+Ensure the version shown is **3.10.x** or higher.
+
+### 3. Clone the Repository
+Download the project files by cloning this repository:
+```bash
+git clone https://github.com/your-username/mixture-of-agents-cli.git
+cd mixture-of-agents-cli
+```
+*(Replace `your-username/mixture-of-agents-cli` with your actual GitHub repository URL once created).*
+
+---
+
 ## 🚀 Setup Instructions
 
-Clone the repository (or copy the files into a directory) and choose one of the setup methods below:
+Choose one of the setup methods below to configure your OpenRouter API key:
 
 ### Option A: Automatic Setup (Recommended)
 
